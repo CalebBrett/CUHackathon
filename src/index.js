@@ -1,17 +1,91 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+class Document extends React.Component
+{
+	render()
+	{
+		return(
+			<div className="document">
+				<Header />
+				<Content />
+			</div>
+		);
+	}
+}
+
+class Header extends React.Component
+{
+	render()
+	{
+		return(
+			<div className="header">
+				hello this is head
+			</div>
+		);
+	}
+}
+
+class Content extends React.Component
+{
+
+	showCreator()
+	{
+		var creator = document.getElementById('creator');
+		creator.style.visibility = "visible"; 
+		var user = document.getElementById('user');
+		user.style.visibility = "hidden";
+	}
+	showUser()
+	{
+		var creator = document.getElementById('creator');
+		creator.style.visibility = "hidden"; 
+		var user = document.getElementById('user');
+		user.style.visibility = "visible";
+	}
+
+
+	render()
+	{
+		return(
+			<div className="content">
+				<div id="creator">
+					<div id="ChatViewer">
+						Chat
+					</div>
+					<div id="AnswerViewer">
+						answer
+					</div>
+					<div id="AddQuestions">
+						Questions
+					</div>
+					<div id="SetupDonate">
+						Dono
+					</div>
+				</div>
+				<div id="user">
+					<div id="Chat">
+						chat
+					</div>
+					<div id="Questions">
+						questio
+					</div>
+					<div id="Donations">
+					Donodono
+					</div>
+					<div id="Game">
+						game
+					</div>
+				</div>
+				<button onClick={this.showCreator}>Creator</button>
+				<button onClick={this.showUser}>User</button>
+			</div>
+		);
+	}
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Document />,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
