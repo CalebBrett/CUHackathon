@@ -51,30 +51,30 @@ class Content extends React.Component
 		return(
 			<div className="content">
 				<div id="creator">
-					<div id="ChatViewer">
+					<div id="cChat">
 						Chat
 					</div>
-					<div id="AnswerViewer">
+					<div id="cAnswer">
 						answer
 					</div>
-					<div id="AddQuestions">
+					<div id="cQuestion">
 						Questions
 					</div>
-					<div id="SetupDonate">
+					<div id="cDono">
 						Dono
 					</div>
 				</div>
 				<div id="user">
-					<div id="Chat">
+					<div id="uChat">
 						chat
 					</div>
-					<div id="Questions">
+					<div id="uQuestion">
 						questio
 					</div>
-					<div id="Donations">
+					<div id="uDono">
 					Donodono
 					</div>
-					<div id="Game">
+					<div id="uGame">
 						game
 					</div>
 				</div>
