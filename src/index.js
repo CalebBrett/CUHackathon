@@ -2,6 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+const NewsAPI = require('newsapi');
+const newsapi = new NewsAPI('be67d4c06b2b4aa09d16c1b89de1b4ec');
+newsapi.v2.sources({
+  category: 'technology',
+  language: 'en',
+  country: 'us'
+}).then(response => {
+  console.log(response);
+  /*
+    {
+      status: "ok",
+      sources: [...]
+    }
+  */
+});
+
 class Document extends React.Component
 {
 	render()
@@ -45,6 +61,9 @@ class Content extends React.Component
 		user.style.visibility = "visible";
 	}
 
+	rss()
+	{
+	}
 
 	render()
 	{
@@ -80,6 +99,7 @@ class Content extends React.Component
 				</div>
 				<button onClick={this.showCreator}>Creator</button>
 				<button onClick={this.showUser}>User</button>
+				<button onClick={this.rss}>RSS</button>
 			</div>
 		);
 	}
