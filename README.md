@@ -3,7 +3,7 @@ By Jonathan Steeves and Caleb Brett
 
 ## Goal and needs of users
 
-The goal of this project was to increase viewership, engagement, and participation at political events. We chose this because political events like debates or rallies often are not engaging to the viewer, particularly younger audiences.
+The goal of this project was to increase viewership, engagement, and participation at political events. We are fixing the disconnect between politicians and citizens by allowing for more communication which helps politicians get feedback, and helps citizens to feel like they matter more than just one vote. We chose this because political events like debates or rallies often are not engaging to the viewer, particularly younger audiences.
 
 There is a need by event organizers and political officials to be able to have a platform where they can communicate and gain feedback from the audience. As well as having a way to engage the audience to keep them watching the main event for longer. 
 On the other hand, there is a need by the audience to interact with the officials and open a line of communication with them. This is important in politics because most people feel like the only way they can contribute to politics is by voting or by becoming a politician themselves.
