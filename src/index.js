@@ -83,16 +83,16 @@ class Content extends React.Component
 				<div id="creator">
 					<div id="cChat">
 						<p>Chat feed</p>
-						<input type="text" placeholder="Josh:"/><div></div>
-						<input type="text" placeholder="Emily:"/><div></div>
-						<input type="text" placeholder="Bob:"/> <div></div>
+						<input type="text" placeholder="Josh: Hello everyone"/><div></div>
+						<input type="text" placeholder="Emily: HI"/><div></div>
+						<input type="text" placeholder="Bob: I belive..."/> <div></div>
 						<input type="text" placeholder="..."/>
 					</div>
 					<div id="cAnswer">
 						<p>Answers</p>
-						Question #1:<div></div>
+						<h3>Question #1:<div></div>
 						Question #2:<div></div>
-						Question #3:
+						Question #3:</h3>
 					</div>
 					<div id="cQuestion">
 						<p>Make Questions</p>
@@ -192,7 +192,7 @@ class Content extends React.Component
 						</div>
 
 						<div class="buttons">
-						<button type="button" class="btn btn-outline-secondary btns">Sign Up</button>
+						<button type="button" onClick={this.closeSignup} class="btn btn-outline-secondary btns">Sign Up</button>
 						</div>
 					  </div>
 					</div>
