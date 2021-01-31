@@ -1,73 +1,48 @@
-# Getting Started with Create React App
+# PoliSpace
+By Jonathan Steeves and Caleb Brett
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Goal and needs of users
 
-## Available Scripts
+The goal of this project was to increase viewership, engagement and participation at political events. We chose this becuase political events like debates or rallys often are not engaging to the viewer, particularly younger audiences.
 
-In the project directory, you can run:
+There is a need by event organizers and political officials to be able to have a platform where they can comunicate and gain feedback from the audience. As well as having a way to engage the audience to keep them watching the main event for longer. 
+On the other hand there is a need by the audience to interact with the officials and open a line of communication with them. This is important in politics because most people feel like the only way they can contribute to politics is by voting or by becoming a politician themselves.
 
-### `npm start`
+##Tools used
+- React was used to build the webapp
+- Google cloud was used to host the webapp and SQL server
+- Domain.com used to make the domain name
+- Bootstrap
+- NewsAPI was used to get an RSS feed of political questions (this cant be demonstrated because we didn't have enough tim to figure out how to parse the json file)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##Challenges# PoliSpace
+By Jonathan Steeves and Caleb Brett
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Goal and needs of users
 
-### `npm test`
+The goal of this project was to increase viewership, engagement, and participation at political events. We chose this because political events like debates or rallies often are not engaging to the viewer, particularly younger audiences.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+There is a need by event organizers and political officials to be able to have a platform where they can communicate and gain feedback from the audience. As well as having a way to engage the audience to keep them watching the main event for longer. 
+On the other hand, there is a need by the audience to interact with the officials and open a line of communication with them. This is important in politics because most people feel like the only way they can contribute to politics is by voting or by becoming a politician themselves.
 
-### `npm run build`
+##Tools used
+- React was used to build the webapp
+- Google cloud was used to host the webapp and SQL server
+- Domain.com used to make the domain name
+- Bootstrap
+- NewsAPI was used to get an RSS feed of political questions (this cant be demonstrated because we didn't have enough time to figure out how to parse the json file)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##Challenges
+- We ran into problems integrating the SQL server for the backend, so we had to leave that out.
+- We had trouble hosting the website with google cloud and a custom domain, but we figured it out in the end.
+- The RSS feed API was a challenge to add also in the end we added it but were unable to use it because we could not parse the JSON file.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##Extra features/Future improvements
+- Create a game for the users where they can compete for prizes set by the organizer, maybe like meeting with some of the political officials.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- We ran into problems integrating the SQL server for the backend so we had to leave that out.
+- We had trouble hosting the website with google cloud and a custom domain but we figured it out in the end.
+- The RSS feed API was a challenge to add also in the end we added it but were unable to use it because we could not parse the JSON file.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# CUHackathon
->>>>>>> 33789039ade12fd3194be7d19907569956f1b362
+##Extra features/Future improvements
+- Create a game for the users where they can compete for prizes set by the organizer, maybe like meeting with some of the political officials.
